@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kleid - Steganography</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kleid - Steganography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to Kleid</h1>
+<div class="header">
+    <h1>Kleid</h1>
     <h2>A Simple Steganography Tool</h2>
+</div>
+
+<div class="body">    
     <label for="original-image">Choose an image file here:</label>
     <input type="file" id="original-image" accept="image/*">
     <label for="secret-text">Enter text to encode:</label>
@@ -19,4 +25,7 @@
 
   <script src="script.js"></script>
 </body>
+<div class="footer">
+    <p>© 2024 by Tharun Nagleswaran. Created with HTML, JavaScript & CSS.</p>
+</div>
 </html>
