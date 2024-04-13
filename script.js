@@ -6,7 +6,7 @@ document.getElementById('hide-button').addEventListener('click', function() {
   var secretText = secretTextInput.value;
 
   if (!originalImageFile || !secretText) {
-    alert('Please select an image and enter secret text.');
+    alert('Please select an image and enter text.');
     return;
   }
 
